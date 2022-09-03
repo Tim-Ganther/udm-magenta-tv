@@ -119,6 +119,8 @@ It is important to exactly match the rule category (e.g. Internet In, ...):
 
 ### udm-utilities
 
+Based on: [Repository](https://github.com/unifi-utilities/unifios-utilities/blob/main/on-boot-script/README.md) ([License applies](https://github.com/unifi-utilities/unifios-utilities/blob/main/LICENSE))
+
 #### Upgrade from earlier way
 
 * As long as you didn't change the filenames, installing the deb package is all you need to do.  If you want to clean up beforehand anyways....
@@ -151,6 +153,7 @@ This will also install CNI Plugins & CNI Bridge scripts. If you are using UDMSE/
 
 #### Create Helper scripts
 Based on: [Issue](https://github.com/fabianishere/udm-iptv/issues/2#issuecomment-1030589790)
+
 These scripts cover issues with losing connection on IP change. I have two small scripts to restart the proxy when an IP change is detected:
 You can register all kinds of event triggers through on_boot.d and manipulate containers through podman - even the OS.
 
