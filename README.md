@@ -96,6 +96,8 @@ additional DHCP options. You can add these DHCP options as follows:
    
 ## Create Profiles
 
+Based on: [Article](https://www.bjoerns-techblog.de/2017/06/deutsche-telekom-entertain-mit-dem-ubiquiti-unifi-security-gateway/)
+
 ![IPTV Destination](img/profile_iptv_destination.jpeg)
 
 ![IPTV Port](img/profile_iptv_port.jpeg)
@@ -104,6 +106,8 @@ additional DHCP options. You can add these DHCP options as follows:
 
 
 ## Create Firewall Rules
+Based on: [Article](https://www.bjoerns-techblog.de/2017/06/deutsche-telekom-entertain-mit-dem-ubiquiti-unifi-security-gateway/)
+
 It is important to exactly match the rule category (e.g. Internet In, ...):
 
 ![Allow IGMP to LAN Internet In](img/firewall_rule_allow_igmp_to_lan_internet_in.jpeg)
