@@ -12,7 +12,7 @@ For getting IPTV to work on the legacy UniFi Security Gateway, please refer to t
 1. [Prerequisites](#prerequisites)
 1. [Setting up Internet Connection](#setting-up-internet-connection)
 1. [Configuring Internal LAN](#configuring-internal-lan)
-1. [Configuring Helper Tool](#configuring-helper-tool)
+1. [Configuring Helper Tools](#configuring-helper-tools)
 1. [Troubleshooting and Known Issues](#troubleshooting-and-known-issues)
 
 ## Global Design
@@ -93,6 +93,27 @@ additional DHCP options. You can add these DHCP options as follows:
    | Name       | Code | Type       | Value               |
    |------------|:----:|------------|---------------------|
    | IPTV-Class |  60  | Text       | IPTV_RG             |
+   
+## Create Profiles
+
+[IPTV Destination](img/profile_iptv_destination.jpeg)
+
+[IPTV Port](img/profile_iptv_port.jpeg)
+
+[IPTV Source](img/profile_iptv_source.jpeg)
+
+
+## Create Firewall Rules
+It is important to exactly match the rule category (e.g. Internet In, ...):
+
+[Allow IGMP to LAN Internet In](img/firewall_rule_allow_igmp_to_lan_internet_in.jpeg)
+
+[IGMP Proxy Internet Local](img/firewall_rule_igmp_proxy_internet_local.jpeg)
+
+[IPTV UDP Internet In](img/firewall_rule_iptv_udp_internet_in.jpeg)
+
+[UPTV UDP Internet Local](img/firewall_rule_iptv_udp_internet_local.jpeg)
+
 
 ## Configuring Helper Tools
 
