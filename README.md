@@ -96,23 +96,23 @@ additional DHCP options. You can add these DHCP options as follows:
    
 ## Create Profiles
 
-[IPTV Destination](img/profile_iptv_destination.jpeg)
+![IPTV Destination](img/profile_iptv_destination.jpeg)
 
-[IPTV Port](img/profile_iptv_port.jpeg)
+![IPTV Port](img/profile_iptv_port.jpeg)
 
-[IPTV Source](img/profile_iptv_source.jpeg)
+![IPTV Source](img/profile_iptv_source.jpeg)
 
 
 ## Create Firewall Rules
 It is important to exactly match the rule category (e.g. Internet In, ...):
 
-[Allow IGMP to LAN Internet In](img/firewall_rule_allow_igmp_to_lan_internet_in.jpeg)
+![Allow IGMP to LAN Internet In](img/firewall_rule_allow_igmp_to_lan_internet_in.jpeg)
 
-[IGMP Proxy Internet Local](img/firewall_rule_igmp_proxy_internet_local.jpeg)
+![IGMP Proxy Internet Local](img/firewall_rule_igmp_proxy_internet_local.jpeg)
 
-[IPTV UDP Internet In](img/firewall_rule_iptv_udp_internet_in.jpeg)
+![IPTV UDP Internet In](img/firewall_rule_iptv_udp_internet_in.jpeg)
 
-[UPTV UDP Internet Local](img/firewall_rule_iptv_udp_internet_local.jpeg)
+![UPTV UDP Internet Local](img/firewall_rule_iptv_udp_internet_local.jpeg)
 
 
 ## Configuring Helper Tools
