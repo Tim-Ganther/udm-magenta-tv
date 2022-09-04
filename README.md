@@ -3,7 +3,7 @@
 
 This Guide is based on [UDM-IPTV by @fabianishere](https://github.com/fabianishere/udm-iptv) ([License applies](https://github.com/fabianishere/udm-iptv/blob/master/COPYING.txt)) and has been created for documentation purposes. Felt like others might find it helpful as well so I made this repository public.
 
-This document describes how to set up Maagenta TV on UniFi routing devices based on UniFi OS, such as the UniFi Dream Machine (UDM). These instructions have been tested with Magenta TV from Telekom. However, the general approach should be applicable for other ISPs as well.
+This document describes how to set up Telekom Magenta TV on UniFi routing devices based on UniFi OS, such as the UniFi Dream Machine (UDM). These instructions have been tested with Magenta TV from Telekom. However, the general approach should be applicable for other ISPs as well.
 
 For getting IPTV to work on the legacy UniFi Security Gateway, please refer to the [following guide](https://github.com/basmeerman/unifi-usg-kpn).
 
